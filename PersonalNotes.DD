@@ -1,4 +1,8 @@
 Place your notes or TODO here.
 $FG,2$<CTRL-SHIFT-M>$FG$
 
-
+U8 FEMALE_VOICE[12] = {
+  0x02, 0x90, 0x76, 0x85,   /* modulator: MULT=2, moderate TL, faster AR, medium SL/RR */
+  0x32, 0x04, 0x93, 0x22,   /* carrier: MULT=2 (brighter), loud, fast AR, low SL (more presence) */
+  0x10, 0x03, 0x01, 0x00    /* FB/ALG small FB (body), mod waveform=3, car waveform=1 = LONG STACCATTO, pad */
+};
